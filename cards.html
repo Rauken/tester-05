@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+      p{
+        font-size: 20px;
+      }
+      .slider{
+        background: url("rsc/wall3.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+
+  </head>
+  <body>
+    <!-- Fondo y presentacion -->
+    <section class="container-fluid slider d-flex justify-content-center align-items-center">
+      <h1 class="display-1">Practica bootstrap</h1>
+    </section>
+
+    <!-- Menu de navegacion -->
+    <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm sticky-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Togle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="rsc/134.gif" width="30" height="30" class="d-inline-block aline-top" alt="">
+        Tester Trickster
+      </a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="navbar-nav mr-auto text-center">
+          <a class="nav-item nav-link" href="index.html">Inicio</a>
+          <a class="nav-item nav-link" href="galeria.html">Gallery</a>
+          <a class="nav-item nav-link" href="cards.html">Cards</a>
+          <a class="nav-item nav-link" href="#">Nosotros</a>
+        </div>
+        <div>
+          <a href="#"><img src="rsc/y.png" width="30" height="30"></a>
+          <a href="#"><img src="rsc/f.png" width="30" height="30"></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Contenido -->
+    <section class="container">
+      <h1 class="mt-5 mp-5 text-center font-italic">Cards</h1>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="rsc/card1.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h5 class="card-title">El arbol de la Grieta</h5>
+            <p class="card-text">Nunca morir es vivir en el corazon de las personas que amamos</p>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="rsc/card3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h5 class="card-title">Bob Patiño</h5>
+            <p class="card-text">Me vengare, cueste lo que me cueste me vengare</p>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="rsc/card4.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h5 class="card-title">Skeletor</h5>
+            <p class="card-text">I give Myself Permission to be Fabulous</p>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="#" role="button">Link</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top img-fluid" src="rsc/card5.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h5 class="card-title">Rainmood</h5>
+            <p class="card-text">Helps you to focus, relax, and sleep</p>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="http://rainymood.com/" role="button">Link</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contenido -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
